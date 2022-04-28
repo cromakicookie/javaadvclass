@@ -63,7 +63,8 @@ function fnCart(name, price) {
 					<h3><%=product.getName() %></h3>
 					<p><%=product.getPrice() %>원
 					<p><a href="productdetail.jsp?pid=<%=product.getId() %>" class="btn btn-secondary" role="button">상세정보</a>
-					<p><input type='button' value='장바구니 담기' onclick='fnCart(\"" + <%=product.getName()%> + "\", \"" + <%=product.getPrice()%> + "\")' />
+					<p><a class="btn btn-secondary" onclick='fnCart(\"" + <%=product.getName()%> + "\", \"" + <%=product.getPrice()%> + "\")' role="button">장바구니 담기</a>
+				
 
 			</div>
 
