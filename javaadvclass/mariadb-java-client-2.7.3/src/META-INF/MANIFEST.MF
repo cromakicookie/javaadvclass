@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Created-By: Maven Jar Plugin 3.2.0
+Build-Jdk-Spec: 11
+Automatic-Module-Name: org.mariadb.jdbc
+Bundle-Activator: org.mariadb.jdbc.internal.osgi.MariaDbActivator
+Bundle-ManifestVersion: 2
+Bundle-Name: mariadb-java-client
+Bundle-SymbolicName: org.mariadb.jdbc
+Bundle-Version: 2.7.3
+Export-Package: org.mariadb.jdbc
+Import-Package: org.osgi.service.jdbc,org.osgi.framework,javax.naming,ja
+ vax.management,javax.sql,javax.sql.rowset.serial,javax.net;resolution:=
+ optional,javax.net.ssl;resolution:=optional,javax.transaction.xa;resolu
+ tion:=optional,waffle.windows.auth;resolution:=optional,waffle.windows.
+ auth.impl;resolution:=optional,org.ietf.jgss;resolution:=optional,javax
+ .security.auth.login;resolution:=optional
+
