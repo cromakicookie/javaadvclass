@@ -152,8 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="emall04" path="/emall04" reloadable="true" source="org.eclipse.jst.jee.server:emall04"/><Context docBase="kakaologinmap" path="/kakaologinmap" reloadable="true" source="org.eclipse.jst.jee.server:kakaologinmap"/><Context docBase="withPET" path="/withPET" reloadable="true" source="org.eclipse.jst.jee.server:withPET">
-      <Resource auth="Container" driverClassName="oracle.jdbc.driver.OracleDriver" name="jdbc/bbbpro" password="0000" type="javax.sql.DataSource" url="jdbc:oracle:thin:@localhost:1521:xe" username="root"/></Context><Context docBase="withPet2" path="/withPet2" reloadable="true" source="org.eclipse.jst.jee.server:withPet2"/><Context docBase="test" path="/test" reloadable="true" source="org.eclipse.jst.jee.server:test"/><Context docBase="test0425" path="/test0425" reloadable="true" source="org.eclipse.jst.jee.server:test0425"/><Context docBase="memoapp01" path="/" reloadable="true" source="org.eclipse.jst.jee.server:memoapp01"/><Context docBase="WithPet_ver01" path="/WithPet_ver01" reloadable="true" source="org.eclipse.jst.jee.server:WithPet_ver01"/><Context docBase="WithPet_ver01 (1)" path="/" reloadable="true" source="org.eclipse.jst.jee.server:WithPet_ver01 (1)"/></Host>
+      <Context docBase="WithPet_ver01" path="/WithPet_ver01" reloadable="true" source="org.eclipse.jst.jee.server:WithPet_ver01"/><Context docBase="WithPet_ver01 (1)" path="/WithPet_ver01_(1)" reloadable="true" source="org.eclipse.jst.jee.server:WithPet_ver01 (1)"/><Context docBase="newsapp01" path="/newsapp01" reloadable="true" source="org.eclipse.jst.jee.server:newsapp01"/></Host>
     </Engine>
   </Service>
 </Server>

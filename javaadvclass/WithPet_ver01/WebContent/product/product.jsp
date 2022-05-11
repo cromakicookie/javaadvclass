@@ -12,7 +12,7 @@ String[] price = {};
 
 for (ProductDTO product : products) {
 	img.add(product.getImage());	
-}
+} 
 
 %>
 <!DOCTYPE html>
